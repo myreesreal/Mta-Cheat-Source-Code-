@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="console\console.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="client\client.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\utilities.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\buffer.c">
+      <Filter>thirdparty\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\hook.c">
+      <Filter>thirdparty\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\trampoline.c">
+      <Filter>thirdparty\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\hde\hde32.c">
+      <Filter>thirdparty\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\minhook\src\hde\hde64.c">
+      <Filter>thirdparty\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_demo.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_draw.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_impl_dx9.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_impl_win32.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_tables.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_texteditor.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="game\visual\visual.cpp">
+      <Filter>game\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="game\manager\manager.cpp">
+      <Filter>game\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="game\aimbot\aimbot.cpp">
+      <Filter>game\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="netc\netc.cpp">
+      <Filter>netc</Filter>
+    </ClCompile>
+    <ClCompile Include="game\player\player.cpp">
+      <Filter>game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="game\packet\packet.cpp">
+      <Filter>game\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="game\silent\silent.cpp">
+      <Filter>game\silent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_elements.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="game\weapon\weapon.cpp">
+      <Filter>game\weapon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="console\console.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="data\elements.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\pattern.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\tables.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\variables.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="client\client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\utilities.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\include\MinHook.h">
+      <Filter>thirdparty\minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\buffer.h">
+      <Filter>thirdparty\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\trampoline.h">
+      <Filter>thirdparty\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\hde32.h">
+      <Filter>thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\hde64.h">
+      <Filter>thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\pstdint.h">
+      <Filter>thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\table32.h">
+      <Filter>thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\minhook\src\hde\table64.h">
+      <Filter>thirdparty\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imconfig.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imgui.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imgui_impl_dx9.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imgui_impl_win32.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imgui_internal.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imgui_texteditor.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imstb_rectpack.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imstb_textedit.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imstb_truetype.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="game\visual\visual.h">
+      <Filter>game\visual</Filter>
+    </ClInclude>
+    <ClInclude Include="game\manager\manager.h">
+      <Filter>game\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="game\aimbot\aimbot.h">
+      <Filter>game\aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="netc\netc.h">
+      <Filter>netc</Filter>
+    </ClInclude>
+    <ClInclude Include="game\player\player.h">
+      <Filter>game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="game\packet\packet.h">
+      <Filter>game\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="game\silent\silent.h">
+      <Filter>game\silent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\imgui_elements.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\data\images.h">
+      <Filter>thirdparty\imgui\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\imgui\data\fonts.h">
+      <Filter>thirdparty\imgui\data</Filter>
+    </ClInclude>
+    <ClInclude Include="game\weapon\weapon.h">
+      <Filter>game\weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="console">
+      <UniqueIdentifier>{9e110462-094d-4552-bd67-bffa85da1e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{f80e7f18-da9c-4da9-a5de-ebd6c3ebddf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{a7a41eeb-b3b1-44e5-a883-c5d603927006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{10a691c9-7ee9-4b5a-98c8-f81220a49c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{e72248f7-2ffa-4f4a-86a3-8c4254b24f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{b6754611-c349-495c-8aa6-ce726a29eaac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\minhook">
+      <UniqueIdentifier>{4a299238-159c-469c-a011-817e6f984954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\minhook\src">
+      <UniqueIdentifier>{57d568d9-3d3f-4f13-b905-26d36f3db817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\minhook\include">
+      <UniqueIdentifier>{410f8fba-2929-4539-b3c8-f5b029fa1a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\minhook\src\hde">
+      <UniqueIdentifier>{d8d6a869-734a-4f07-9224-aacf9cf150e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\imgui">
+      <UniqueIdentifier>{b1a5a32a-921e-456b-8644-956fca359993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{745a7905-bac8-4668-87cf-0cc456511d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\visual">
+      <UniqueIdentifier>{a0b4776f-da27-4047-8c5e-acec9dc14e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\manager">
+      <UniqueIdentifier>{a9a41018-e752-4fa4-bf38-2b2d40693198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\aimbot">
+      <UniqueIdentifier>{0cbddb5e-1bd7-4c68-a924-57917cc8bce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="netc">
+      <UniqueIdentifier>{fa118bec-d75c-4aed-b1b2-b2c6281e5ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\player">
+      <UniqueIdentifier>{30c8136c-da98-42c8-a5a7-c2c394944757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\packet">
+      <UniqueIdentifier>{e4b5660e-8d00-479b-bf46-4c82704ab882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\silent">
+      <UniqueIdentifier>{edd96b7c-03ff-4309-981f-76c6e8df73a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\imgui\data">
+      <UniqueIdentifier>{16d08c0d-71f9-4141-ba30-b2603d9bad24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\weapon">
+      <UniqueIdentifier>{cd401c74-7089-47df-97da-3da14f57dde9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
